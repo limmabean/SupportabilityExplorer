@@ -1,0 +1,192 @@
+/* Background color Matching */
+body {
+	background-color: #fafafa;
+	font-family: Roboto;
+}
+
+
+/*=============== LEFT SIDEBAR ==================*/
+
+.date-bar {
+	box-shadow: none;
+    line-height: 22px;
+    background-color: #4285f4;
+}
+/* Match color and add box shadow on left sidebar*/
+.be-left-sidebar {
+	background-color: #f5f5f5;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 4px 5px 0 rgba(0, 0, 0, 0.14);
+}
+/* In order to move the left sidebar to the top */
+.be-fixed-sidebar .be-left-sidebar{
+	margin-top: 0px;
+}
+
+/* width of the left sidebar defined as 20vw */
+.be-left-sidebar {
+	width: 300px; 
+}
+
+/* Wrapper for the Branding on the top left */
+.be-left-sidebar-header {
+	padding-top: 30px;
+	text-align: center;
+	font-family: Roboto;
+	
+}
+
+.left-sidebar-brand {
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	color: #2b2b2b;
+}
+
+.left-sidebar-brand-subtext {
+	font-size: 12px;
+}
+
+/* In order to shift the sidebar elements right */
+.be-left-sidebar .sidebar-elements {
+	padding-left: 50px;
+}
+
+/* In order for the text in the sidebar to be left aligned and other font adjustments */
+.be-left-sidebar .sidebar-elements > li > a {
+	padding-right: 20px;
+	padding-left: 0px;
+	font-family: Roboto;
+	font-size: 12px;
+	color: rgba(0,0,0,0.87);
+}
+
+.be-left-sidebar .sidebar-elements > li ul {
+	background-color: transparent;
+}
+
+/* Fixing the dividers */ 
+.dropdown-divider {
+	border-top: solid 1px #d8d8d8;
+	width: 200px;
+}
+
+/* this left sidebar adjustment means we have to adjust the body content padding on the left */
+.be-content {
+	margin-left: 300px;
+}
+
+/*=============== MAIN BODY ==================*/
+
+/* This adjustment is to push the title card to the top. */
+.be-wrapper {
+	padding-top: 20px;
+}
+
+.row {
+	margin-bottom: -15px;
+}
+
+/*=============== Case Volume Bar ===============*/
+/* Outline around the case Volume bar*/
+.caseBar {
+	border-radius: 2px;
+	border: solid 1px #d8d8d8;
+}
+
+/* I gotta overwrite the widget padding */
+.widget.widget-fullwidth .widget-head {
+	padding: 10px 10px 0px 10px;
+}
+
+.caseVolumeBox {
+	float: left;
+	padding-right: 20px;
+}
+
+.caseDateBox {
+	float: right;
+	
+}
+
+.caseBICOrderBox{
+	float: right;
+	padding-right: 20px;
+}
+
+.caseLabel {
+	font-weight: lighter;
+	font-size: 12px;
+	color: #757575;
+	line-height: 8px;
+}
+
+.caseData {
+	font-weight: normal;
+	font-size: 24px;
+	color: #757575;
+	line-height: 8px;
+}
+
+
+/*=============== Card Body ==================*/
+
+/* Font Changes to the Taxonomy Search text*/
+.taxonomy-header {
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: normal;
+	color: #2b2b2b;
+}
+
+/* This is color adjustment of the card header*/
+
+/*ML2018 I personally think this makes it harder to see
+.card-header-contrast, .card-footer-contrast {
+	background-color: #fafafa;
+}*/
+
+/* this adjustment is to increase the padding from the main-content and the sidebar 
+   the 0 is so the content goes to the top. */
+.main-content {
+	padding: 0px 50px 50px 50px;
+}
+
+/* shadow for the cards */
+.suppExplCard {
+	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+/* This is to increase the size of the contrasted part of the card. */
+.card-contrast .card-header {
+	padding: 30px 30px 11px;
+}
+
+/* This is to customize the search bar input */
+.taxonomy-search-input {
+	background-color: inherit;
+	border: 0px;
+	padding: 0px 0px 0px;
+	font-family: Roboto;
+	font-size: 16px;
+	line-height:1.5;
+}
+
+/* This is to make the divider between search and subtext */
+.search-divider {
+	width: 240px;
+	height: 1px;
+	background-color: rgba(0,0,0,0.42);
+}
+/* font selection and color for "SEARCH FOR KEYWORDS" under the searchbar*/
+.search-subtext {
+	font-size: 12px;
+	color: rgba(0,0,0,0.42);
+}
+
+
+
